@@ -2,24 +2,27 @@
 
 /* Root start */
 :root {
-  --fontBase: "Montserrat";
-  --fontAlt: "Trebuchet";
+  --font-base: "Montserrat";
+  --font-alt: "Trebuchet";
   --body: #fff;
   --text: #323232;
   --title: #7177f1;
   --link: #7177f1;
   --btn: #7177f1;
   --dots: #828282;
-  --dotsActive: #7177f1;
+  --dots-active: #7177f1;
 }
+
 body {
   background: var(--body);
   color: var(--text);
-  font-family: var(--fontBase);
+  font-family: var(--font-base);
 }
+
 a {
   text-decoration: none;
 }
+
 h6,
 .h6,
 h5,
@@ -35,9 +38,59 @@ h1,
 p {
   margin-bottom: 0;
 }
-/* Root end */
-/* ======================================================================================= */
 
-/* Copy start */
-/* Copy end */
-/* ======================================================================================= */
+.button {
+  background: var(--btn);
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+  padding: 10px;
+  color: var(--bs-white) !important;
+  display: block;
+  text-align: center;
+}
+
+.button:hover {
+  background: var(--bs-white);
+  color: var(--btn) !important;
+}
+/* Root end */
+/* ================= */
+/* HEADER start */
+.navbar {
+  padding: 13px 0;
+}
+
+.logo__dark {
+  display: none;
+}
+.menu {
+  max-width: 660px;
+  width: 100%;
+}
+.menu__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--link);
+  font-size: 24px;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+.menu__link:hover {
+  color: var(--text);
+}
+.menu__icon {
+  font-size: 30px;
+}
+.navbar-toggler {
+  font-size: 30px;
+  color: var(--title);
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 5px var(--title);
+}
+/* HEADER end */
+/* ================= */
+/* FOOTER start */
+/* FOOTER end */
+/* ================= */

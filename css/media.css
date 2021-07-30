@@ -1,0 +1,25 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body: #151437;
+    --text: #fff;
+  }
+
+  .logo__dark {
+    display: inline-block;
+  }
+
+  .logo__light {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .menu__link {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .menu__link.button {
+    justify-content: center;
+    max-width: 190px;
+    width: 100%;
+  }
+}
