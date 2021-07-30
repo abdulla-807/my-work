@@ -26,9 +26,65 @@ a {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p { 
     margin-bottom: 0;
 }
+
+.button {
+    background: var(--btn);
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    padding: 10px;
+    color: var(--bs-white) !important;
+    display: block;
+    text-align: center;
+}
+
+.button:hover {
+    background: var(--bs-white);
+    color: var(--btn) !important;
+}
 /* Root end */
 /* ================= */
 /* HEADER start */
+.navbar {
+    padding: 13px 0;
+}
+
+.logo__dark {
+    display: none;
+}
+
+.menu {
+    max-width: 660px;
+    width: 100%;
+}
+
+.menu__link {
+    color: var(--link);
+    font-size: 24px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.menu__link:hover {
+    color: var(--text);
+}
+
+.menu__icon {
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    font-size: 30px;
+    color: var(--title);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 5px var(--title);
+}
+
 /* HEADER end */
 /* ================= */
 /* FOOTER start */
