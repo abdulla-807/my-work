@@ -17,6 +17,7 @@ body {
     background: var(--body);
     color: var(--text);
     font-family: var(--font-base);
+    overflow-x: hidden;
 }
 
 a {
@@ -40,6 +41,43 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
 .button:hover {
     background: var(--bs-white);
     color: var(--btn) !important;
+}
+
+.rectangle {
+    position: absolute;
+    z-index: -1;
+    border: 5px solid #9297EF;
+}
+
+.rectangle_1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: #790FF1;
+    top: -63px;
+    left: 244px;
+}
+
+.rectangle_2 {
+    width: 80px;
+    height: 80px;
+    top: 14px;
+    left: 33px;
+    transform: rotate(-45.23deg);
+} 
+
+.rectangle_3 {
+    width: 98px;
+    height: 98px;
+    top: -13px;
+    right: 159px;
+}
+
+.rectangle_4 {
+    width: 80px;
+    height: 80px;
+    bottom: 193px;
+    right: 315px;
 }
 /* Root end */
 /* ================= */
@@ -86,6 +124,72 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
 }
 
 /* HEADER end */
+/* ================= */
+/* SLIDER start */
+.slider__subtitle {
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    text-transform: capitalize;
+}
+
+.slider__title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: var(--title);
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.slider__btn {
+    max-width: 299px;
+    width: 100%;
+    margin: 0 auto 50px auto;
+}
+
+.slider__logo {
+    margin-bottom: 15px;
+}
+
+.slider__name {
+    font-size: 20px;
+    color: var(--title);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.slider__img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.slider__indicators {
+    position: static;
+    margin: 50px 0 0 0;
+}
+
+.slider__indicators .slider__dot {
+    width: 15px;
+    height: 15px;
+    background: var(--dots);
+    border: none;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.slider__indicators .slider__dot.active {
+    background: var(--dots-active);
+}
+
+.slider {
+    margin-top: 30px;
+    position: relative;
+}
+/* SLIDER end */
 /* ================= */
 /* FOOTER start */
 /* FOOTER end */

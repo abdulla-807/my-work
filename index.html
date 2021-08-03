@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animation.css">
 </head>
 
 <body>
@@ -52,16 +53,25 @@
             <div class="container">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="row">
-                        <div class="col-xl-6 col-12">
+                        <div class="col-xl-6 col-12 order-last order-xl-0 text-center text-xl-start mt-5 mt-xl-0">
                             <div class="col-xl-10 col-12 ms-auto">
                                 <p class="slider__subtitle">My beginning</p>
                                 <h1 class="slider__title">Self-development and training in the training center</h1>
                                 <a href="#" class="slider__btn button">GET STARTED NOW</a>
                             </div>
                             <div class="row justify-content-center">
-                                <div class="col-4"></div>
-                                <div class="col-4"></div>
-                                <div class="col-4"></div>
+                                <div class="col-sm-4 col-6 text-center">
+                                    <img src="img/html.png" alt="" class="slider__logo">
+                                    <h4 class="slider__name">HTML</h4>
+                                </div>
+                                <div class="col-sm-4 col-6 text-center">
+                                    <img src="img/css.png" alt="" class="slider__logo">
+                                    <h4 class="slider__name">CSS</h4>
+                                </div>
+                                <div class="col-sm-4 col-12 text-center">
+                                    <img src="img/bootstrap.png" alt="" class="slider__logo">
+                                    <h4 class="slider__name">bootstrap 5</h4>
+                                </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-12">
@@ -74,17 +84,20 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="carousel-indicators slider__indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="slider__dot active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                class="slider__dot" aria-label="Slide 2"></button>
+                        </div>
                     </div>
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
+
                 </div>
             </div>
+            <div class="rectangle rectangle_1"></div>
+            <div class="rectangle rectangle_2"></div>
+            <div class="rectangle rectangle_3"></div>
+            <div class="rectangle rectangle_4"></div>
         </section>
     </main>
     <footer></footer>
