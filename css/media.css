@@ -11,6 +11,10 @@
     .logo__light {
         display: none;
     }
+    
+    .about__slogan {
+        background: #7177F1;
+    }
   
 }
 
@@ -24,5 +28,12 @@
         justify-content: center;
         max-width: 190px;
         width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .about__title {
+        font-size: 30px;
+        line-height: auto;
     }
 }
