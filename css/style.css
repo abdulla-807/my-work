@@ -283,6 +283,19 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
 }
 /* ABOUT end */
 /* ================= */
+/* ACCORDION start */
+.accordion__button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.accordion__arrow {
+    margin-left: auto;
+}
+
+/* ACCORDION end */
+/* ================= */
 /* FOOTER start */
 /* FOOTER end */
 /* ================= */
