@@ -128,42 +128,254 @@
         <section class="capabil">
             <div class="container">
                 <h2 class="title">capabilities</h2>
-                <div class="row">
-                    <div class="col-6">
+                <div class="row flex-wrap-reverse align-items-center">
+                    <div class="col-lg-6">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion__item">
                                 <h4 class="accordion-header">
-                                    <button class="accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    <button class="accordion__button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#html">
                                         <img src="img/html.png" alt="" class="accordion__logo">
                                         <i class="accordion__icon fab fa-html5"></i>
                                         HTML
                                         <i class="accordion__arrow fas fa-sort-up"></i>
                                     </button>
                                 </h4>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>Это тело аккордеона первого элемента.</strong> По умолчанию оно скрыто,
-                                        пока плагин сворачивания не добавит соответствующие классы, которые мы
-                                        используем для стилизации каждого элемента. Эти классы управляют общим внешним
-                                        видом, а также отображением и скрытием с помощью переходов CSS. Вы можете
-                                        изменить все это с помощью собственного CSS или переопределить наши переменные
-                                        по умолчанию. Также стоит отметить, что практически любой HTML может быть
-                                        помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
-                                    </div>
+                                <div id="html" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <p class="accordion__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices
+                                        dictum cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit
+                                        enim. Accumsan est </p>
                                 </div>
                             </div>
-                            
+                            <div class="accordion__item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion__button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#css">
+                                        <img src="img/css.png" alt="" class="accordion__logo">
+                                        <i class="accordion__icon fab fa-css3-alt"></i>
+                                        css
+                                        <i class="accordion__arrow fas fa-sort-up"></i>
+                                    </button>
+                                </h4>
+                                <div id="css" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <p class="accordion__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices
+                                        dictum cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit
+                                        enim. Accumsan est </p>
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion__button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#bootstrap">
+                                        <img src="img/bootstrap.png" alt="" class="accordion__logo">
+                                        <i class="accordion__icon fab fa-bootstrap"></i>
+                                        bootstrap
+                                        <i class="accordion__arrow fas fa-sort-up"></i>
+                                    </button>
+                                </h4>
+                                <div id="bootstrap" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <p class="accordion__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices
+                                        dictum cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit
+                                        enim. Accumsan est </p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="col-6">
-                        <img src="img/capabilities.png" alt="" class="capabil__img">
+                    <div class="col-lg-6">
+                        <img src="img/capabilities.png" alt="" class="w-100 mb-3 mb-lg-0">
                     </div>
                 </div>
             </div>
+            <div class="rectangle rectangle_5"></div>
+        </section>
+        <section class="works">
+            <div class="container">
+                <h2 class="title">My Works</h2>
+                <div class="row flex-wrap-reverse">
+                    <div class="col-xl-3">
+                        <ul class="nav flex-xl-column" role="tablist">
+                            <li class="works__item" role="presentation">
+                                <button class="works__tab active" data-bs-toggle="tab" data-bs-target="#nike"
+                                    type="button" role="tab">nike</button>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <button class="works__tab" data-bs-toggle="tab" data-bs-target="#tnw" type="button"
+                                    role="tab">The news web</button>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <button class="works__tab" data-bs-toggle="tab" data-bs-target="#blue" type="button"
+                                    role="tab">blue marketing</button>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <button class="works__tab" data-bs-toggle="tab" data-bs-target="#market" type="button"
+                                    role="tab">boulevard market</button>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <button class="works__tab" data-bs-toggle="tab" data-bs-target="#vue" type="button"
+                                    role="tab">vue cinemas</button>
+                            </li>
+                            <li class="works__item" role="presentation">
+                                <button class="works__tab" data-bs-toggle="tab" data-bs-target="#street" type="button"
+                                    role="tab">street88</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-9 mb-4 mb-xl-0">
+                        <div class="tab-content">
+                            <div class="works__content tab-pane fade show active" id="nike" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/nike.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="works__title"><span class="works__name">NIKE</span> Layout</h4>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus,
+                                            maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim
+                                            egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                                            non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="" class="button works__link">details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works__content tab-pane fade" id="tnw" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/the-news-web.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="works__title"><span class="works__name">The news web</span> Layout
+                                        </h4>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus,
+                                            maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim
+                                            egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                                            non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="" class="button works__link">details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works__content tab-pane fade" id="blue" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/blue-marketing.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="works__title"><span class="works__name">blue marketing</span> Layout
+                                        </h4>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus,
+                                            maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim
+                                            egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                                            non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="" class="button works__link">details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works__content tab-pane fade" id="market" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/boulevard-market.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="works__title"><span class="works__name">boulevard market</span>
+                                            Layout</h4>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus,
+                                            maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim
+                                            egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                                            non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="" class="button works__link">details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works__content tab-pane fade" id="vue" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/vue-cinemas.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="works__title"><span class="works__name">vue cinemas</span> Layout
+                                        </h4>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus,
+                                            maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim
+                                            egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                                            non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="" class="button works__link">details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="works__content tab-pane fade" id="street" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <img src="img/street88.png" alt="" class="works__img">
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="works__title"><span class="works__name">street88</span> Layout</h4>
+                                        <p class="works__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus,
+                                            maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim
+                                            egestas. Mi mi id amet, lorem vitae lectus risus diam </p>
+                                        <p class="works__desc">nunc. Eget nunc eget lectus amet feugiat lobortis sit sit
+                                            non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                                        <a href="" class="button works__link">details</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/svg/figure_2.svg" alt="" class="figure figure_2">
+            <div class="rectangle rectangle_6"></div>
+            <div class="rectangle rectangle_7"></div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="container">
+            <ul class="menu navbar-nav ms-lg-auto row align-items-lg-center flex-row">
+                <li class="col-12 nav-item d-flex justify-content-center">
+                    <a class="logo" href="#">
+                        <img class="logo__light" src="img/svg/logo-light.svg" alt="">
+                        <img class="logo__dark" src="img/svg/logo-dark.svg" alt="">
+                    </a>
+                </li>
+                <li class="col-sm-4 nav-item">
+                    <a class="menu__link" href="#">About me</a>
+                </li>
+                <li class="col-sm-2 nav-item">
+                    <a class="menu__link" href="#">Works</a>
+                </li>
+                <li class="col-sm-4 nav-item">
+                    <a class="menu__link" href="#">Contacts</a>
+                </li>
+                <li class="col-lg-5 nav-item">
+                    <a class="menu__link" href="tel:+998902223355">
+                        +998 (90) 222-33-55
+                    </a>
+                </li>
+                <li class="col-lg-7 nav-item">
+                    <a class="menu__link" href="mailto:info@mail.ru">
+                        info@mail.ru
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="rectangle rectangle_8"></div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
