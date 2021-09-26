@@ -1,1 +1,6 @@
-@import url(fonts.css);
+@media (prefers-color-scheme: dark) {
+    :root {
+        --body: #151437;
+        --color: #FFFFFF;
+    }
+}
