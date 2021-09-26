@@ -1,1 +1,38 @@
 @import url(fonts.css);
+/* ROOT start */
+:root {
+    --font-base: "Montserrat";
+    --font-alt: "Trebuchet";
+    --body: #fff;
+    --color: #323232;
+    --title: #7177F1;
+    --btn: #7177F1;
+    --link: #7177F1;
+    --text: #fff;
+    --dots-active: #7177F1;
+    --dots: #828282;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: var(--body);
+    color: var(--color);
+    font-family: var(--font-base);
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
+    margin-bottom: 0;
+}
+
+
+/* ROOT end */
+/* ================================= */
+/* HEADER start */
+/* HEADER end */
+/* ================================= */
+/* FOOTER start */
+/* FOOTER end */
+/* ================================= */

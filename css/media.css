@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --body: #151437;
+        --color: #fff;
+        --bots: #EBEBEB;
+    }
+}
