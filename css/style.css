@@ -1,0 +1,58 @@
+@import url(fonts.css);
+/* ROOT start */
+:root {
+--font-base:"Montserrat";
+--font-alt:"Trebuchet" ;
+--body:#fff; 
+--color:#323232;
+--title:#7177f1;  
+--btn-bg:#7177f1;
+--btn-color:#fff;
+--link:#7177f1;
+--dot:#828282;
+--dot-active:#7177f1;
+}
+
+body{
+    background: var(--body);
+    font-family: var(--font-base);
+    color: var(--color);
+}
+a{
+    text-decoration: none;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p { 
+    margin-bottom: 0;
+}
+
+.button {
+    background: var(--btn-bg);
+    color: var(--btn-color) !important;
+    padding: 10px 0;
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    transition: 500ms;
+    font-size: 18px;
+}
+
+.button:hover {
+    background: var(--btn-color);
+    color: var(--btn-bg) !important;
+}
+/* ROOT end */
+/* ================= */
+/* HEAD start */
+
+.menu__link {
+    font-size: 24px;
+    line-height: 16px;
+    color: var(--link);
+}
+/* HEAD end */
+/* ================ */
+/* FOOTER start */
+/* FOOTER end */
+/* =============== */
