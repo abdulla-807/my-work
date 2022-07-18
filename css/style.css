@@ -1,0 +1,68 @@
+@import url(../css/fonts.css);
+/* ROOT START */
+:root {
+    --font-base: "Montserrat";
+    --font-alt: "Trebuchet";
+    --body: #fff;
+    --color: #323232;
+    --title: #7177F1;
+    --btnBg: #7177F1;
+    --btn-text: #fff;
+    --link: #7177F1;
+    --dot: #828282;
+    --dotActiv: #7177F1;
+}
+
+a {
+    text-decoration: none;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
+    margin-bottom: 0;
+}
+
+body {
+    background: var(--body);
+    font-family: var(--font-base);
+    color: var(--color);
+}
+
+.button {
+    background: var(--btnBg);
+    color: var(--btn-text) !important;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.5);
+    text-align: center;
+    display: block;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+.button:hover {
+    background: var(--btn-text) ;
+    color: var(--btnBg) !important;
+}
+
+/* ROOT END */
+/* ========================== */
+/* HEADER START */
+.menu__link {
+    font-size: 24px;
+    line-height: 16px;
+    color: var(--link);
+}
+/* HEADER END */
+/* ========================== */
+/* FOOTER START */
+/* FOOTER END */
+/* ========================== */
+/* ROOT START */
+/* ROOT END */
+/* ========================== */
+/* ROOT START */
+/* ROOT END */
+/* ========================== */
+/* ROOT START */
+/* ROOT END */
+/* ========================== */
