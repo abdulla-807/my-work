@@ -47,6 +47,14 @@ body {
 /* ROOT END */
 /* ========================== */
 /* HEADER START */
+.navbar {
+    padding: 13px 0;
+}
+
+.logo__dark {
+    display: none;
+}
+
 .menu__link {
     font-size: 24px;
     line-height: 16px;
